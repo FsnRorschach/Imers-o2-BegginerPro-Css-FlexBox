@@ -1,0 +1,1 @@
+O foco nesse projeto 2 é mostrar as funcionalidades do FlexBox do css3, ajudando a manipular seu HTML.
