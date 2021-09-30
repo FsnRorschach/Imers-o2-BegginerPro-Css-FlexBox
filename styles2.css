@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+button,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+main h1 {
+    margin: 4px 0;
+}
+
+form {
+    width: 100%;
+    padding: 32px;
+    border-radius: 4px;
+    background-color: #333;
+    box-shadow: #222 2px 2px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .linha-2 {
+    width: 100%;
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form .linha-2 div {
+    width: 48%;
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .linha-1 {
+    margin: 4px;
+    width: 100%;
+}
+
+form .linha-1 div {
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+form .linha-1 #termos label a {
+    color: deeppink;
+}
+
+form .linha-1 div button {
+    background-image: linear-gradient(to bottom right, #861853, deeppink);
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    padding: 6px;
+}
+
+form .linha-1 div button:hover {
+    box-shadow: 4px 4px 0 #ffa8d6;
+}
+
+form .linha-1 div button:active {
+    background-color: rgb(189, 0, 101);
+}
+
+form div label,
+form div input,
+form .linha-1 div button {
+    color: #fff;
+    font-size: 18px;
+    outline: 0;
+}
+
+form div input {
+    color: #333;
+    border: 0;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+form div input:focus {
+    background-color: #ffb9e0;
+}
